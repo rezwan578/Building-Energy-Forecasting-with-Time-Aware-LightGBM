@@ -1,4 +1,4 @@
-# Building-Energy-Forecasting-with-Time-Aware-LightGBM
+# Building Energy Forecasting with Time-Aware LightGBM
 An applied machine learning project for predicting building-level energy consumption using the ASHRAE Great Energy Predictor III dataset. The project focuses on large-scale tabular regression, time-aware feature engineering, chronological model evaluation, LightGBM modelling, SHAP interpretability, and meter-wise error analysis.
 
 ## Project Context
