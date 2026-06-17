@@ -5,6 +5,8 @@ An applied machine learning project for predicting building-level energy consump
 
 This project was developed as part of the Applied Machine Learning module within the MSc Data Science and Analytics programme at Cardiff University, United Kingdom.
 
+Supervisor: Yingying Wu
+
 This repository presents a cleaned, portfolio-ready version of the original academic project. The main analysis is provided as a single Jupyter/Google Colab notebook to preserve the exploratory and experimental workflow.
 
 ## Objective
