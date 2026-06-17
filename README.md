@@ -85,7 +85,7 @@ All errors are reported on the log-transformed target scale.
 | Fine-tuned LightGBM without `building_id` | 1.184 | 0.690 | 0.680 |
 | Fine-tuned LightGBM with `building_id` | 1.181 | 0.641 | 0.680 |
 
-The preferred final model was the fine-tuned LightGBM model without `building_id`. Although including `building_id` slightly improved some error metrics, removing it reduced reliance on building-specific identity information and shifted the model toward more generalisable predictors.
+The preferred final model was the fine-tuned LightGBM model without `building_id`. Although including `building_id` slightly improved some error metrics, removing it reduced reliance on building-specific identity information and shifted the model toward more generalisable predictors. Since it was trained and evaluated on log-transformed meter readings, its RMSE of 1.184 is on the same logarithmic scale as the RMSLE metric used in the ASHRAE GEPIII competition. The result is competitive relative to the reported winning RMSLE of 1.231, but it should not be interpreted as a direct leaderboard comparison because the official competition used a hidden future test set. The safer conclusion is that a compact, carefully engineered, single-model LightGBM pipeline produced a robust and competitive local evaluation result.
 
 ## Interpretability
 
